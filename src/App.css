@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Inter-Regular';
+  src: local('Inter-Regular'),
+    url('./fonts/Inter-Regular.woff2');
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: 'Inter-Medium';
+  src: local('Inter-Medium'),
+    url('./fonts/Inter-Medium.woff2');
+  font-weight: regular;
+}
+
+input:focus-visible {
+  outline: 1px solid #1e1e1ebe;
+}

@@ -1,0 +1,38 @@
+.phone-input {
+  font-size: 18px !important;
+  width: 100% !important;
+  border: none !important;
+  font-family: "Inter-Regular", sans-serif !important;
+}
+
+.phone-input-container {
+  display: block;
+  padding: 8px 20px;
+  margin: 0 0 15px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 16px;
+  border: 1px solid #1e1e1e29;
+  background-color: transparent;
+  font-family: "Inter-Regular";
+  font-size: 18px;
+}
+
+.flag-dropdown {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.react-tel-input .selected-flag {
+  padding: 0;
+}
+
+.phone-input-container:focus-within {
+  outline: 1px solid #1e1e1ebe;
+}
+
+.drop-container {
+  border-radius: 16px !important;
+  margin: 16px 0 10px -21px !important;
+  padding: 0 5px !important;
+}

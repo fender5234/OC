@@ -1,0 +1,36 @@
+.navlink-image {
+  margin-right: 10px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 15px 100px;
+  position: relative;
+  font-family: 'Inter-Medium';
+  text-decoration: none;
+}
+
+.nav-link--active {
+  color: #0B1F35;
+  background-color: #f1f6fb;
+}
+
+.nav-link--active::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #1BC339;
+}
+
+.Sidebar-wrapper {
+  max-width: 320px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 132px;
+  flex-shrink: 0;
+}

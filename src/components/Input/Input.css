@@ -1,0 +1,17 @@
+.input-form {
+  display: block;
+  padding: 15px 20px;
+  margin: 0 0 15px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 16px;
+  border: 1px solid #1e1e1e29;
+  background-color: transparent;
+  font-family: "Inter-Regular";
+  font-size: 18px;
+}
+
+.input-form::placeholder {
+  font-family: "Inter-Regular";
+  font-size: 16px;
+}

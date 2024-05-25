@@ -1,0 +1,33 @@
+.Container {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.app-wrapper {
+  margin-left: 319px;
+  border-radius: 32px 0 0 0;
+  padding: 50px;
+  background-color: #f1f6fb;
+  flex-grow: 1;
+  margin-top: 86px;
+  overflow-y: scroll;
+}
+
+.app-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.agent {
+  width: 100%;
+  height: 250px;
+  background-color: rgb(163, 163, 163);
+  border-radius: 15px;
+}
+
+.agent-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+}
