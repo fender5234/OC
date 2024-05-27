@@ -6,6 +6,7 @@ import NotFound from './pages/NotFound';
 import Layout from './pages/Layout';
 import './App.css';
 import Agents from './pages/Agents';
+
 import './fonts/Inter-Regular.woff2';
 import './fonts/Inter-Medium.woff2';
 import { Routes, Route, Link } from 'react-router-dom';
@@ -14,7 +15,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/'element={<Layout />}>
+        <Route path='/' element={<Layout />}>
           <Route path='/agents' element={<Agents />}></Route>
         </Route>
         <Route path='/login' element={<Login />}></Route>

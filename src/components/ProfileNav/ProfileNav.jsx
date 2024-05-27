@@ -1,6 +1,5 @@
 import styles from './ProfileNav.module.css';
 
-console.log(styles);
 function ProfileNav() {
   return (
     <nav className={styles.profileNavContainer}>
