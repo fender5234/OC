@@ -8,7 +8,21 @@ const options = [
 ];
 
 function ReactSelect() {
-  return <Select options={options} className='react-select-container' classNamePrefix='react-select' defaultValue={options[2]}/>;
+  return (
+    <Select
+      options={options}
+      className='react-select-container'
+      classNamePrefix='react-select'
+      defaultValue={options[2]}
+      styles={{
+        option: (baseStyles, state) => ({
+          ...baseStyles,
+          backgroundColor: state.isSelected ? '#1bc339' : 'transparent',
+          borderRadius: state.isSelected ? '10px' : 'transparent',
+        }),
+      }}
+    />
+  );
 }
 
 export default ReactSelect;
