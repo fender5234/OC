@@ -1,9 +1,9 @@
 import './Input.css';
 
-function Input({ placeholder, type = 'text' }) {
+function Input({ name, placeholder, type = 'text', setUserData, data }) {
   return (
     <>
-      <input type={type} className='input-form' placeholder={placeholder} required></input>
+      <input type={type} className='input-form' placeholder={placeholder} value={data} onChange={(e) => setUserData(e, name)}></input>
     </>
   );
 }
