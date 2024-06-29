@@ -4,6 +4,8 @@ import Sidebar from '../components/Sidebar/Sidebar';
 import Container from '../components/Container/Container';
 import LogoLink from '../components/LogoLink/LogoLink';
 import ProfileNav from '../components/ProfileNav/ProfileNav';
+import Pagination from '../components/Pagination/Pagination';
+import DealForm from '../components/DealsForm/DealForm';
 function Layout() {
   return (
     <>
@@ -34,7 +36,12 @@ function Layout() {
             </SidebarNavLink>
           </Sidebar>
           <div className='app-wrapper'>
+            <Pagination></Pagination>
+            <DealForm></DealForm>
             <Outlet />
+            <Link to='/register'>Ссыллка на регистрацию</Link>
+            <Link to='/login'>Ссыллка на Логин</Link>
+            <button>Ахуительная кнопка</button>
           </div>
         </Container>
       </main>
