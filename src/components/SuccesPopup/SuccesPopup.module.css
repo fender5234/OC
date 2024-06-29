@@ -1,0 +1,73 @@
+.modal {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  background: rgba(0, 0, 0, .5);
+  transition: all ease 1s;
+}
+
+.modalWrapper {
+  padding: 30px;
+  pointer-events: all;
+  margin: auto;
+  border-radius: 30px;
+  background-color: #ffffff;
+}
+
+.modalImage {
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.modalTitle {
+  line-height: 100%;
+  margin: 0 0 15px;
+  text-align: center;
+  color: #2dc837;
+}
+
+.modalSubTitle {
+  margin: 0 0 20px;
+  font-size: 24px;
+  text-align: center;
+  max-width: 260px;
+}
+
+.modalLink {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 30px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #1BC339;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: "Inter-Medium";
+  font-size: 18px;
+}
+
+.modalTitleAgain {
+  line-height: 100%;
+  margin: 0 0 15px;
+  text-align: center;
+  color: #f20201;
+}
+
+.modalLinkAgain {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 30px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #f20201;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: "Inter-Medium";
+  font-size: 18px;
+}

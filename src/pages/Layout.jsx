@@ -39,6 +39,9 @@ function Layout() {
             <Pagination></Pagination>
             <DealForm></DealForm>
             <Outlet />
+            <Link to='/register'>Ссыллка на регистрацию</Link>
+            <Link to='/login'>Ссыллка на Логин</Link>
+            <button>Ахуительная кнопка</button>
           </div>
         </Container>
       </main>
